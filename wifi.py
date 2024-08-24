@@ -30,9 +30,14 @@ def connect():
         sleep_ms(DELAY)
 
 
-connect()
+def main():
+    connect()
 
-response = urequests.get("http://ip.jsontest.com/")
-print(response.text)
-response = urequests.get("http://date.jsontest.com/")
-print(response.text)
+    response = urequests.get("http://ip.jsontest.com/")
+    print(response.text)
+    response = urequests.get("http://date.jsontest.com/")
+    print(response.text)
+
+
+if __name__ == "__main__":
+    main()
