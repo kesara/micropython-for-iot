@@ -35,3 +35,16 @@ mpremote help
 mpremote devs # list connected devices
 mpremote repl # Python shell. Press `Ctrl` + `b`.
 ```
+
+## Blink
+
+```
+mpremote fs cp blink.py :blink.py
+mpremote repl
+```
+
+```
+MicroPython v1.23.0 on 2024-06-02; Raspberry Pi Pico W with RP2040
+Type "help()" for more information.
+>>> import blink
+```
