@@ -48,3 +48,31 @@ MicroPython v1.23.0 on 2024-06-02; Raspberry Pi Pico W with RP2040
 Type "help()" for more information.
 >>> import blink
 ```
+
+## WiFi
+
+* Update `SSID` and `PASSWORD` to match your WiFi connection.
+* Update `connection.ifconfig()`:
+```
+connection.ifconfig(
+  [
+    "IP address",
+    "subnet mask",
+    "gateway",
+    "DNS"
+  ]
+)
+```
+
+* Copy `wifi.py` and run.
+
+```
+mpremote fs cp wifi.py :wifi.py
+mpremote repl
+```
+
+```
+MicroPython v1.23.0 on 2024-06-02; Raspberry Pi Pico W with RP2040
+Type "help()" for more information.
+>>> import wifi
+```
