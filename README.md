@@ -75,4 +75,5 @@ mpremote repl
 MicroPython v1.23.0 on 2024-06-02; Raspberry Pi Pico W with RP2040
 Type "help()" for more information.
 >>> import wifi
+>>> wifi.main()
 ```
