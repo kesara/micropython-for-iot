@@ -14,7 +14,7 @@ Kiwi PyCon XIII workshop that explores the use of MicroPython on a Raspberry Pi 
 
 ```
 python3 -m venv venv
-./activate
+. venv/bin/activate
 ```
 
 *  Install `mpremote`.
@@ -22,8 +22,7 @@ python3 -m venv venv
 pip install mpremote
 ```
 
-*  Download and copy [MicroPython for Raspberry Pi Pico W with Wi-Fi and Bluetooth LE support](https://www.raspberrypi.com/
-documentation/microcontrollers/micropython.html).
+*  Download and copy [MicroPython for Raspberry Pi Pico W with Wi-Fi and Bluetooth LE support](https://www.raspberrypi.com/documentation/microcontrollers/micropython.html).
 
 ```
 cp RPI_PICO_W-20240602-v1.23.0.uf2 /Volumes/RPI-RP2/
