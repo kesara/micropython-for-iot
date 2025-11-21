@@ -137,6 +137,8 @@ Use Ctrl-] or Ctrl-x to exit this shell
 
 ## Buzzer - ESP32-C3
 
+Requires buzzer module.
+
 ```
 mpremote fs cp buzzer.py :buzzer.py
 mpremote repl
@@ -149,6 +151,8 @@ Use Ctrl-] or Ctrl-x to exit this shell
 ```
 
 ## Lights - ESP32-C3
+
+Requires RGB LED module.
 
 ```
 mpremote fs cp lights.py :lights.py
