@@ -43,7 +43,7 @@ def blink(loops):
 
 
 def get_colour():
-    return f"{randint(0, 255):0.2x}"
+    return f"{randint(0, 255):02x}"
 
 
 def send_data(name):
@@ -62,8 +62,6 @@ def button_click():
 
         if new_state == 0 and old_state == 1:
             # button pressed
-            print(new_state)
-            print(old_state)
             led.value(not led.value())
             schedule(send_data, "K")
 
